@@ -1,6 +1,7 @@
 <!DOCTYPE html >
 <html>
 <head>
+<!-- this is validation before display data	 -->
   <title><?php if(!empty($page['title'])) echo $page['title'] ?></title>
   <script>var baseurl="<?php echo Friendica\Core\System::baseUrl() ?>";</script>
   <?php if(!empty($page['htmlhead'])) echo $page['htmlhead'] ?>
